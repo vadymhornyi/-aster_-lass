@@ -160,3 +160,28 @@ h1, h2, h3, h4, h5, h6 {
     
     color: #333;
 }
+
+/* Sertyfikaty */
+
+.gallery__certyfikaty {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.gallery__certyfikaty img {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    height: 380px;
+}
+
+.gallery__certyfikaty img:hover {
+    transform: scale(1.5);
+}
