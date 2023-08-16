@@ -178,10 +178,16 @@ h1, h2, h3, h4, h5, h6 {
     /*object-fit: cover;*/
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 220px;
 }
 
 .gallery__certyfikaty img:hover {
     transform: scale(1.5);
+}
+
+.section__titlesectyon {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
 }
