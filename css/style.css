@@ -162,10 +162,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .italic {
-    font-family: 'Caveat', cursive;
-    font-size: 35px;
-
+    /*font-family: 'Caveat', cursive;*/
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
 }
+
+.li__palec {
+    list-style-image: url(/right-arrow.svg);
+    /* ИЛИ */
+    list-style-type: '👉';
+    padding-inline-start: 1ch;
+  }
 
 /* Sertyfikaty */
 
@@ -196,6 +205,5 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     text-align: center;
     color: #333;
-    font-weight: 700;
-    text-transform: uppercase;
+    
 }
