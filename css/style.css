@@ -161,6 +161,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+.italic {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+
+}
+
 /* Sertyfikaty */
 
 .gallery__certyfikaty {
@@ -190,4 +196,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     text-align: center;
     color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
 }
