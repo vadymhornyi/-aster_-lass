@@ -168,9 +168,17 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+.section__header__gray {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto 40px;
+    background-color: #dbd8d8;
+}
+
 .section__title {
     font-size: 24px;
-    
     color: #333;
 f}
 
@@ -215,6 +223,17 @@ f}
 .section__titlesectyon {
     font-size: 24px;
     text-align: center;
+    color: #333;   
+}
+
+.section__titlesectyon1 {
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    align-content: space-between;
     color: #333;
-    
+}
+
+.arteterapia_img {
+    width: 15%;
 }
