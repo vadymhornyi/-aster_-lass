@@ -43,6 +43,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.header_logo {
+    width: 500px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
 .intro__suptitle {
     font-family: 'Caveat', cursive;
     color: #333;
@@ -95,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .foto_logo {
-    width: 120px;
+    width: 250px;
     height: 140px;
 }
 
@@ -159,19 +165,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     
     color: #333;
-}
+f}
 
 .italic {
     /*font-family: 'Caveat', cursive;*/
-    font-family: cursive;
+    font-family: italic;
     font-size: 24px;
     font-weight: 700;
     /*text-transform: uppercase;*/
 }
 
 .li__palec {
-    list-style-image: url(/right-arrow.svg);
-    /* ИЛИ */
     list-style-type: '👉';
     padding-inline-start: 1ch;
   }
