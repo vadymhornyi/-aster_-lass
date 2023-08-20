@@ -132,14 +132,14 @@ header nav ul li a {
 
 nav ul li ul {
     position: absolute;
-    left: 0;
+    left: -40px;
     width: 400px;
     display: none;
 }
 
 nav ul li ul li {
     width: 100%;
-    top: 0;
+    top: 21px;
 }
 
 nav ul li:hover > ul {
