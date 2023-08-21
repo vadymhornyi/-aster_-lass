@@ -197,9 +197,11 @@ nav ul li:hover > ul {
 }
 
 .section__header__gray {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    height: 0;
+    padding-top: 60%;
+
+    display: block;
+    position: relative;
     width: 100%;
     margin: 0 auto 40px;
     background-color: #dbd8d8;
@@ -256,13 +258,66 @@ nav ul li:hover > ul {
 }
 
 .section__titlesectyon1 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
     font-size: 24px;
     text-align: center;
-    align-items: center;
-    align-content: space-between;
     color: #333;
+    width: 400px;
+    
 }
 
-.arteterapia_img {
-    width: 15%;
+.arteterapia_img1 {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
 }
+
+.arteterapia_img2 {
+    position: absolute;
+    top: 42%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.arteterapia_img3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 8%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.arteterapia_img4 {
+    position: absolute;
+    top: 17%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.arteterapia_img5 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(40%, -80%);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+
