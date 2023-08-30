@@ -186,6 +186,7 @@ nav ul li:hover > ul {
 /* Section */
 
 .section {
+    text-align: center;
     padding: 80px 0;
     border-bottom: #333 solid 1px;
 }
@@ -214,6 +215,28 @@ nav ul li:hover > ul {
     text-align: center;
 }
 
+.section__suptitle {
+    font-family: cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+
+    background-color: #f38181;
+} 
+
+.section__text {
+    font-size: 16px;
+    color: #999;
+}
+
+
 .italic {
     /*font-family: 'Caveat', cursive;*/
     font-size: 20px;
@@ -226,7 +249,27 @@ nav ul li:hover > ul {
     padding-inline-start: 1ch;
   }
 
-/* Sertyfikaty */
+/* About */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__item {
+    width: 30%;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+
+  /* Sertyfikaty */
 
 .gallery__certyfikaty {
     display: flex;
