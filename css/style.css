@@ -187,7 +187,7 @@ nav ul li:hover > ul {
 
 .section {
     text-align: center;
-    padding: 80px 0;
+    padding: 40px 0;
     border-bottom: #333 solid 1px;
 }
 
@@ -195,6 +195,8 @@ nav ul li:hover > ul {
     text-align: left;
     padding: 80px 0;
     border-bottom: #333 solid 1px;
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
 }
 
 .section__header {
@@ -225,6 +227,7 @@ nav ul li:hover > ul {
     font-family: cursive;
     font-size: 24px;
     color: #333;
+    text-align: center;
 }
 
 .section__title:after {
@@ -245,9 +248,14 @@ nav ul li:hover > ul {
 .section__text_1 {
     font-size: 19px;
     color: #333;
-    
 }
 
+.section__text_p2 {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+}
 
 .italic {
     /*font-family: 'Caveat', cursive;*/
