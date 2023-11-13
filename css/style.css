@@ -55,6 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #083857;
 }
 
+.logo__img {
+    border-radius: 10px;
+    width: 260px;
+    height: 100px;
+}
+
 .intro__suptitle {
     font-family: 'Caveat', cursive;
     color: #333;
